@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .App {
+    width: 100%;
+    min-height: 100vh;
+    background: #6e6968;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+    .container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3988c9;
+  }
+
+    .randomNumber {
+    background: #faf0d7;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    white-space: nowrap; 
+    overflow: hidden;
+    
+  }
+  
+  .randomNumber span {
+    display: inline; 
+  }
+  
+    .randomValue {
+    color: red;
+    font-weight: bold;
+    margin-left: 5px; 
+  }
+  
+    .numContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    width: 100%;
+  }
+  
+    .container div {
+    width: 100%;
+    max-width: 43%;
+  }
+  
+    .numContainer div input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #faf0d7;
+    color: red;
+    font-weight: bold;
+  }
+  
+    .container button {
+    align-items: flex-end;
+    border: none;
+    outline: none;
+    background: #faf0d7;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .4s;
+  }
+  
+    .container button:hover {
+    background-color: black;
+    color: #faf0d7;
+  }
